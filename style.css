@@ -18,7 +18,7 @@ body {
 }
 
 .wrap {
-	width: 960px;
+	width: 840px;
 	margin: 0 auto;
 	border: 1px solid lightgray;
 	text-align:left;
@@ -93,7 +93,7 @@ body {
 .main > p{
 	margin-top: 4px;
 	margin-bottom: 4px;
-	width: 480px;
+	width: 520px;
 }
 
 .topicHeader {
