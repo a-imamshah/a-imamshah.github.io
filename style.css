@@ -36,14 +36,14 @@ body {
 }
 
 .subHeader {
-	font-size: 16;
+	font-size: 18;
 	font-weight: bold;
 	color: gray;
 }
 
 .info {
 	color: gray;
-	font-size: 14;
+	font-size: 16;
 }
 
 .nav {
@@ -65,7 +65,7 @@ body {
 
 .sectionHeader {
 	border-bottom: 1px solid lightgray;
-	font-size: 22;
+	font-size: 24;
 	font-weight: bold;
 	width: 480px;
 	
@@ -77,14 +77,14 @@ body {
 
 .articleHeader {
 	padding-top: 16px;
-	font-size: 14;
+	font-size: 16;
 	font-weight: bold;
 	width: 480px;
 }
 
 .main  *{
 	text-align: justify;
-	font-size: 12;
+	font-size: 14;
 	vertical-align:text-top;
 }
 
