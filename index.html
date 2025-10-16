@@ -1,67 +1,73 @@
-
-
-
-<LINK href="style.css" rel="stylesheet" type="text/css">
-
-  
-
-<head><title>Ahmed Imam Shah</title>
-<link rel="icon" 
-      type="image/png" 
-      href="favicon.png">
-<script type="text/javascript">
-
-</script>	  	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Imam Shah | Machine Learning Engineer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="hero">
+  <img src="images/profile.jpg" alt="Ahmed Imam Shah" class="profile-photo" />
+  <h1>Ahmed Imam Shah</h1>
+  <p class="tagline">Machine Learning Engineer | Deep Learning | Computational Pathology</p>
+    <div class="buttons">
+      <a href="https://github.com/a-imamshah" target="_blank" class="btn">GitHub</a>
+      <a href="https://www.linkedin.com/in/ahmedimamshah/" target="_blank" class="btn">LinkedIn</a>
+      <a href="mailto:ahmedimamshah@gmail.com" class="btn">Email</a>
+      <a href="AhmedImamShah_CV.pdf" class="btn" download>Download CV</a>
+    </div>
+  </header>
 
-	<div class="wrap">
-		<table>
-			<tr>
-				<td>
-					<div class="profilePic"><img src="images/profile.jpg" width =200px"></img></div>  
-				</td>
-				<td>
-					<div class ="header">Ahmed Imam Shah</div>
-					<div class ="subHeader">Machine Learning Engineer</div>
-					<div class = "info">Virasoft Yazılım Ticaret A.Ş.</br>
-						İstanbul, Türkiye</br>
-						<a href="https://www.linkedin.com/in/ahmedimamshah/"><img src="images/linkedin.png" alt="LinkedIn" style="width:24px; margin:4px 2px"></a>
-						<a href="https://github.com/a-imamshah"><img src="images/github.png" alt="GitHub" style="width:24px; margin:4px 2px"></a>
-						<a href="https://twitter.com/ahmedimamshah"><img src="images/twitter.png" alt="Twitter" style="width:24px; margin:4px 0px"></a>
-						<a href="https://facebook.com/ahmedimam13"><img src="images/facebook.png" alt="Facebook" style="width:24px; margin:4px 2px"></a>
-						<a href="mailto:ahmedimamshah@gmail.com"><img src="images/gmail.png" alt="GMail" style="width:24px; margin:4px 2px"></a>
-					</div> 
-				</td>
-			</tr>
-			<tr>
-				<td valign="top">
-				<div class ="nav">
-						<a href="index.html">Biography</br></a>
-						<a href="publications.html">Publications</br></a>
-						<a href="teachingassistant.html">Teaching Assistant</br>
-						<a href="projects.html">Projects</br></a>
-						<a href="AhmedImamShah_CV.pdf">CV</br></a>
-					</div> 
-				</td>
-				<td valign="top">
-					<div class ="sectionHeader">
-						Biography
-					</div>
-					<div class ="main">
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I'm a Machine Learning Engineer specializing in deep learning and computer vision for healthcare and scientific research.
+      I design and deploy AI-driven solutions for digital pathology, physics simulations, and unsupervised visual understanding.
+      Passionate about building scalable, data-driven systems that bridge AI theory and real-world applications.
+    </p>
+  </section>
 
-						<p>I completed my Bachelor of Science in Electrical and Electronics Engineering from <a href="https://w3.bilkent.edu.tr/bilkent/">Bilkent University</a> in 2020. Following that, I was awarded an AI fellowship from the <a href="https://ai.ku.edu.tr/">KUIS AI Center</a> to pursue a Master's degree in Computer Science and Engineering at <a href="https://www.ku.edu.tr/en/">Koç University</a>. 
-						I conducted research on the thesis topic "Unsupervised Multi-Object Discovery and Tracking using Memory-Augmented Slot Attention," with supervision from Prof. <a href="http://home.ku.edu.tr/~yyemez/">Yücel Yemez</a> and Assoc. Prof. <a href="https://aykuterdem.github.io/">Aykut Erdem</a>.
-						On September 11, 2023, I successfully defended my thesis and graduated with high honors.</p>
-						
-						<p>I am currently employed as a Machine Learning Engineer at <a href="https://www.virasoft.com/">Virasoft Corporation</a>, a technology startup specializing in artificial intelligence (AI) and digital pathology solutions for cancer diagnosis and research. The company is based in New York and has offices in Istanbul, Turkey. In my role, I am responsible for developing and automating machine learning-based digital pathology algorithms. These algorithms play a crucial role in replacing manual annotations in image analysis workflows. Additionally, I am tasked with implementing efficient and robust parallel-computing workflows within High-Performance Computing systems to support large-scale image analysis projects.</p>
-						
-						
-						
-					</div>
-				</td>
-			</tr>
-		</table>
-	</div>
+  <section id="experience" class="alt">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Machine Learning Engineer</h3>
+      <p class="org">Virasoft Corporation | Apr 2022 – Present</p>
+      <p>Deployed deep learning models for cancer metastasis detection (98% sensitivity, 94% F1-score). Built scalable pipelines for WSI analysis.</p>
+    </div>
+    <div class="card">
+      <h3>AI Consultant</h3>
+      <p class="org">Beamide S.r.l. | Dec 2023 – Mar 2025</p>
+      <p>Integrated VQ-VAE and CNN models into particle simulators, accelerating high-energy physics workflows by 100×.</p>
+    </div>
+    <div class="card">
+      <h3>Graduate Research Fellow</h3>
+      <p class="org">KUIS AI Center | 2020 – 2023</p>
+      <p>Conducted research in unsupervised object-centric learning for multi-object tracking and segmentation.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Slot Attention Object Tracking</h3>
+        <p>Unsupervised multi-object discovery achieving 85% ARI on CLEVR video benchmarks.</p>
+      </div>
+      <div class="card">
+        <h3>SAVI & PixelCNN Reproduction</h3>
+        <p>Recreated object-centric learning models in PyTorch and Julia, matching benchmark results.</p>
+      </div>
+      <div class="card">
+        <h3>Visual-Inertial Navigation</h3>
+        <p>Developed GPS-free localization for robotic systems using inertial and visual odometry.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Ahmed Imam Shah · Istanbul, Türkiye</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
-
+</html>
